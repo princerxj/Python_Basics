@@ -1,0 +1,16 @@
+# Required packages for Python AI/ML learning
+
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Deep Learning (optional - comment out if not needed)
+tensorflow>=2.6.0
+
+# Additional utilities
+scipy>=1.7.0
+seaborn>=0.11.0
