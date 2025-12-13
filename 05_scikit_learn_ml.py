@@ -19,7 +19,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import KMeans
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix, classification_report, mean_squared_error, r2_score
-from sklearn.datasets import make_classification, make_regression
+from sklearn.datasets import make_classification, make_regression, make_blobs
 
 print("=" * 70)
 print("MACHINE LEARNING WITH SCIKIT-LEARN")
@@ -257,7 +257,6 @@ print("9. K-MEANS CLUSTERING")
 print("=" * 70)
 
 # Generate clustering data
-from sklearn.datasets import make_blobs
 X_cluster, y_cluster = make_blobs(
     n_samples=300, 
     n_features=2, 

@@ -173,7 +173,7 @@ print(df_missing.fillna(df_missing.mean()))
 
 # Forward fill
 print("\nForward fill:")
-print(df_missing.fillna(method='ffill'))
+print(df_missing.ffill())
 
 # ============================================================================
 # 6. GROUPBY AND AGGREGATION

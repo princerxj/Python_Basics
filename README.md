@@ -182,11 +182,8 @@ pip install --upgrade -r requirements.txt
 ### TensorFlow Installation
 For deep learning examples, TensorFlow may require specific setup:
 ```bash
-# For CPU version
+# TensorFlow includes GPU support automatically when CUDA is available
 pip install tensorflow
-
-# For GPU version (requires CUDA)
-pip install tensorflow-gpu
 ```
 
 ## 📝 Additional Resources
