@@ -168,8 +168,8 @@ print(df_missing.dropna())
 print("\nFill missing values with 0:")
 print(df_missing.fillna(0))
 
-print("\nFill missing values with mean:")
-print(df_missing.fillna(df_missing.mean()))
+print("\nFill missing values with mean (numeric columns only):")
+print(df_missing.fillna(df_missing.mean(numeric_only=True)))
 
 # Forward fill
 print("\nForward fill:")

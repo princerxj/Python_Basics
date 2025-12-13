@@ -186,6 +186,12 @@ For deep learning examples, TensorFlow may require specific setup:
 pip install tensorflow
 ```
 
+**Note for GPU users**: To use GPU acceleration, you need:
+- NVIDIA GPU with CUDA compute capability 3.5 or higher
+- CUDA Toolkit (compatible version with your TensorFlow)
+- cuDNN library
+- Check [TensorFlow GPU guide](https://www.tensorflow.org/install/gpu) for detailed setup
+
 ## 📝 Additional Resources
 
 - [NumPy Documentation](https://numpy.org/doc/)
