@@ -185,7 +185,7 @@ print("=" * 60)
 
 # Group by department
 print("Group by Department and calculate mean:")
-print(df.groupby('Department').mean())
+print(df.groupby('Department')[['Age', 'Salary']].mean())
 
 print("\nGroup by Department and calculate multiple aggregations:")
 print(df.groupby('Department').agg({
